@@ -6,7 +6,7 @@ import pandas as pd
 # Título
 # ------------------------------
 st.set_page_config(page_title="Dashboard de Consciencia", layout="wide")
-st.title("🧠 Dashboard Clínico de Consciencia - Test de Hawkins")
+st.title("🧠 Dashboard Clínico de Estados de Consciencia")
 
 st.markdown(
 """
@@ -149,4 +149,5 @@ ejercicios = {
 }
 
 for dia, desc in ejercicios.items():
+
     st.markdown(f"**{dia}:** {desc}")
